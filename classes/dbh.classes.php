@@ -1,7 +1,7 @@
 <?php
 
 class Dbh{
-    private function connect(){
+    public function connect(){
         try{
             $username = "root";
             $password = "";
